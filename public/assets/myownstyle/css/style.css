@@ -1,0 +1,427 @@
+@font-face {
+    font-family: 'Integral CF Demi Bold Oblique'; /* Give it a name you'll use later */
+    src: url("{{ asset('assets/fonts/Fontspring-DEMO-integralcf-demiboldoblique.otf')}}") format('otf'); /* Specify the path to your font files */
+         /* url('fonts/your_font.woff') format('woff'),
+         url('fonts/your_font.ttf') format('truetype'); */
+    /* Add more src lines for other formats if available */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Integral CF Extra Bold'; /* Give it a name you'll use later */
+    src: url("{{ asset('assets/fonts/Fontspring-DEMO-integralcf-extrabold.otf')}}") format('otf'); /* Specify the path to your font files */
+         /* url('fonts/your_font.woff') format('woff'),
+         url('fonts/your_font.ttf') format('truetype'); */
+    /* Add more src lines for other formats if available */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Integral CF Heavy'; /* Give it a name you'll use later */
+    src: url("{{ asset('assets/fonts/Fontspring-DEMO-integralcf-heavy.otf')}}") format('otf'); /* Specify the path to your font files */
+         /* url('fonts/your_font.woff') format('woff'),
+         url('fonts/your_font.ttf') format('truetype'); */
+    /* Add more src lines for other formats if available */
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+    font-family: 'HK Grotesk', sans-serif;
+    color: #101010;
+}
+
+.courier-new {
+    /* font-family: 'HK Grotesk', sans-serif; */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    font-size: 104px;
+}
+h2 {
+    font-size: 64px;
+}
+
+h3 {
+    font-family: 'Integral CF Demi Bold Oblique', sans-serif;
+    font-style: oblique;
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: -3px;
+}
+
+h4 {
+    font-size: 26px;
+}
+
+.product-text-color {
+    color: #9b9b9b;
+    /* color: #ffffff; */
+}
+
+.bottom-cover {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: 0px 75%;
+}
+
+/* .scale {
+    object-fit: scale-down;
+} */
+
+.carousel-inner{
+    height: 5000px;
+}
+/* #differentiation-carousel {
+    height: 50px;
+    width: auto;
+} */
+main {
+    /* padding: 20px 0; */
+}
+footer {
+    background-color: #101010;
+    color: #ffffff;
+}
+p {
+    text-align: justify;
+    line-height: 2.5;
+}
+
+.red {
+    color: #CA171E;
+}
+
+.red-bold {
+    color: #CA171E;
+    font-weight: bold;
+}
+.red-bolder {
+    color: #CA171E;
+    font-weight: bolder;
+}
+.letter-space-normal {
+    letter-spacing: 1px;
+}
+
+.small {
+    font-size: 14px;
+}
+
+.very-small{
+    font-size: 12px;
+}
+
+.reguler {
+    font-size: 16px;
+}
+
+.large {
+    font-size: 20px;
+}
+
+.larger {
+    font-size: 28px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.subtitle {
+    font-size: 24px;
+}
+
+#desc {
+    margin-bottom: 50px;
+}
+#signature {
+    width: 200px;
+}
+
+.medium-logo {
+    height: auto;
+    width: 75px;
+    display: block;
+
+}
+
+.small-logo {
+    height: auto;
+    width: 40px;
+    display: block;
+
+}
+
+.viewall-btn {
+    width: 100px;
+}
+
+.start-project-btn {
+    width: 200px;
+}
+
+.default-btn {
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid #CA171E;
+    background-color: white;
+    transition: .3s;
+}
+.default-btn:hover {
+    color: #ffffff;
+    background-color: #CA171E;
+}
+
+.container {
+    padding: 30px 0;
+    border-bottom: 1px solid #101010;
+    
+}
+
+#double-dash {
+    padding: 0;
+    width: 60%;
+    border-top: 1px solid #101010;
+    border-bottom: 1px solid #101010;
+    height: 5px;
+}
+
+#container-products {
+    border: none;
+}
+
+#container-differentiation {
+    border-bottom: 1px solid #101010;
+    /* position: relative; */
+}
+
+#container-services {
+    border-top: 1px solid #101010;
+    border-bottom: none;
+}
+
+#container-clients {
+    border-top: none;
+    border-bottom: none;
+}
+
+#container-start-project{
+    text-align: center;
+    font-weight: 900;
+    padding-bottom: 50px;
+}
+#container-start-project span {
+    font-family: 'Integral CF Extra Bold', sans-serif;
+    /* display: inline-block; */
+    background: linear-gradient(to bottom, white 60%, #fcd300 40%);
+    height: 10px;
+}
+
+.carousel-caption {
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+
+.carousel-inner {
+    height: 300px;
+}
+.lets-work-button {
+    height: 50px;
+    width: 200px;    
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    padding: 10px 30px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+.lets-work-button:hover {
+    background-color: white;
+    color: #101010;
+
+}
+
+.carousel-caption div h2 {
+    /* font-weight: 900; */
+    color: #ffffff;
+    font-style: italic;
+    font-weight: 900;
+    font-family: 'Integral CF Extra Bold', sans-serif;
+    /* font-family: 'Integral CF Heavy' sans-serif, monospace; */
+}
+.rectangle-100px {
+    height: 100px;
+    width: 100px;
+}
+
+.navbar {
+    z-index: 1000;
+    position: absolute;
+}
+
+.c-item {
+    height: 300px;
+  }
+  
+  .c-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+  }
+
+#differentiation-carousel .carousel-indicators button {
+    background-color: #101010 ;
+}
+
+#works-carousel .carousel-indicators button {
+    background-color: #101010 ;
+}
+/* #differentiation-carousel .carousel-indicators button.active {
+    background-color: #CA171E !important;
+} */
+.carousel-indicators button.active {
+    background-color: #CA171E !important;
+    /* transition: background-color 0.5s;  */
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.footer-sub-element {
+    color: #ffffff;
+    padding-bottom: 10px;
+    font-weight: lighter;
+}
+.start-project-element {
+    padding-top: 30px;
+}
+.subtitle-container {
+    margin-bottom: 25px;
+}
+
+.product-card {
+    height: 200px;
+}
+.above {
+    z-index: 1000;
+}
+.product-card::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to left,rgba(0,0,0,0) 70%, rgba(16,16,16,0.1));
+}
+.red-1 {
+    background-color: #e54c57;
+}
+
+.red-2 {
+    background-color: #e44b55;
+}
+
+.red-3 {
+    background-color: #e24a54;
+}
+
+.orange {
+    background-color: #fea025;
+}
+
+.very-light-orange {
+    background-color: #f4cac0;
+}
+
+.light-blue {
+    background-color: #7ccef1;
+}
+
+.brown {
+    background-color: #9c767a;
+}
+
+.dark-blue {
+    background-color: #3d406d;
+}
+
+.slider-container {
+    position: relative;
+	width: 100%;
+	height: 50px;
+	overflow: hidden;
+	margin-top: 50px; 
+}
+.differentiation-content-container {
+    padding: 25px 0;
+}
+.slider-container b h3 {
+
+    max-width: 100%;
+    white-space: nowrap;
+    animation: movingText 8s linear infinite;
+}
+
+
+
+@keyframes movingText {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-150%);
+    }
+}
+
+@media (max-width: 576px){
+    @keyframes movingText {
+        0% {
+            transform: translateX(100%);
+        }
+        100% {
+            transform: translateX(-200%);
+        }
+    }
+    h1 {
+        font-size: 52px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    .container {
+        padding: 30px;
+    }
+    .very-small{
+        font-size: 7px;
+    }
+    .lets-work-button {
+        padding: 0;
+        height: 30px;
+        width: 100px;    
+        /* border-radius: 5px;
+        background-color: transparent;
+        border: 1.5px solid #ffffff;
+        color: #ffffff;
+        padding: 10px 30px;
+        font-weight: 500;
+        transition: 0.3s; */
+    }
+    .bottom-cover {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        object-position: 0px 75%;
+    }
+}
