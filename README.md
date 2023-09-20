@@ -15,7 +15,6 @@ test-interview-teltics>: composer install
 7. running perintah di bawah untuk menjalankan program:
 ```console
 test-interview-teltics>: php artisan serve
-foo
 ```
 
 Apabila terdapat kendala dalam instalasi. Silakan hubungi dimasprayitna222@gmail.com
